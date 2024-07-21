@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "eirini2.kicad_pro",
+    "filename": "eirini.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -534,7 +534,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../gerbers/",
+      "plot": "D:/Alessandro/Documents/KiCad_Projects/laska/eirini/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

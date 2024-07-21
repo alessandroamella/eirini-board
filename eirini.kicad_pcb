@@ -107,7 +107,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../gerbers/")
+			(outputdirectory "D:/Alessandro/Documents/KiCad_Projects/laska/eirini/gerbers/")
 		)
 	)
 	(net 0 "")

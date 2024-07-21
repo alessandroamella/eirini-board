@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "8.0.3"
     },
-    "CreationDate": "2024-07-09T17:09:24+02:00"
+    "CreationDate": "2024-07-21T14:24:04+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "eirini2",
-      "GUID": "65697269-6e69-4322-9e6b-696361645f70",
+      "Name": "eirini",
+      "GUID": "65697269-6e69-42e6-9b69-6361645f7063",
       "Revision": "1.0"
     },
     "Size": {
@@ -32,47 +32,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "eirini2-F_Cu.gbr",
+      "Path": "eirini-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "eirini2-B_Cu.gbr",
+      "Path": "eirini-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "eirini2-F_Paste.gbr",
+      "Path": "eirini-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "eirini2-B_Paste.gbr",
+      "Path": "eirini-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "eirini2-F_Silkscreen.gbr",
+      "Path": "eirini-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "eirini2-B_Silkscreen.gbr",
+      "Path": "eirini-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "eirini2-F_Mask.gbr",
+      "Path": "eirini-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "eirini2-B_Mask.gbr",
+      "Path": "eirini-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "eirini2-Edge_Cuts.gbr",
+      "Path": "eirini-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
