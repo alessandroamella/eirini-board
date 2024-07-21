@@ -1,0 +1,203 @@
+(footprint "MicroSD Reader"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.638461 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b2f7e64f-90b6-455f-8e8c-0524dab4d9cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MicroSD Reader"
+		(at 0 11.015384 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7d527c4e-93ef-4682-a704-1e1dc8fe9902")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -9.638461 -8.007692 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5344bdf-78c3-4494-854a-dc7928f3bb51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -9.638461 -8.007692 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0335e73d-d8f5-4d39-be13-025a2e2cfa0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -9.638461 -8.007692 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8da74a29-efdb-4b03-bb3d-618f0c25e6a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.638461 -8.261538)
+		(end 8.261538 -8.261538)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "346e7a5d-e6cc-420a-984b-162f98b32c7c")
+	)
+	(fp_line
+		(start -9.638461 9.638461)
+		(end -9.638461 -8.261538)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c86f1f6-d9ee-4c2e-97e0-b4e296414d12")
+	)
+	(fp_line
+		(start 8.261538 -8.261538)
+		(end 8.261538 9.638461)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b29246f0-9740-44c1-9ad3-1aa4783764bc")
+	)
+	(fp_line
+		(start 8.261538 9.638461)
+		(end -9.638461 9.638461)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a8e5f86-652f-433d-8704-3ad13878f1ac")
+	)
+	(fp_rect
+		(start -9.638461 -6.884615)
+		(end -1.376923 8.261538)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5fe8bd74-7a37-4436-8a01-69e1191d7057")
+	)
+	(fp_circle
+		(center 4.533332 -6.799998)
+		(end 5.666665 -6.799998)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "efc3d336-3e09-48c5-a3c2-33d5a094c3f2")
+	)
+	(fp_circle
+		(center 4.533332 7.933331)
+		(end 5.666665 7.933331)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "36cacbaf-d93c-4aa6-97af-d248b74115ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 12.392307 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52087403-5fa2-4644-a521-c1ba9f8f1509")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "CS" thru_hole circle
+		(at 6.884615 6.884615)
+		(size 1.325926 1.325926)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a03796b5-a15f-4572-b500-f62d541c2fa2")
+	)
+	(pad "GND" thru_hole circle
+		(at 6.884615 -6.884615)
+		(size 1.325926 1.325926)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59885370-ed6c-4e96-8823-7ec63789cd69")
+	)
+	(pad "MISO" thru_hole circle
+		(at 6.884615 -1.376923)
+		(size 1.325926 1.325926)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34b9f4e8-6e6a-4890-a420-5c4992dd0e5a")
+	)
+	(pad "MOSI" thru_hole circle
+		(at 6.884615 1.376923)
+		(size 1.325926 1.325926)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de122ff2-e4a2-4fd0-94ec-725c1a572b8c")
+	)
+	(pad "SCK" thru_hole circle
+		(at 6.884615 4.130769)
+		(size 1.325926 1.325926)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d05abf8a-5273-4e46-9526-1cef52b80416")
+	)
+	(pad "VCC" thru_hole circle
+		(at 6.884615 -4.130769)
+		(size 1.325926 1.325926)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5376ef2e-44fc-4fc6-9840-e5300238e11c")
+	)
+)
